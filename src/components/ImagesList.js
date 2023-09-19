@@ -3,7 +3,7 @@ import ImageItem from "./ImageItem";
 
 const ImagesList = ({ imagesPlaceholder }) => {
   return (
-    <div className="d-flex">
+    <div className="kapsayici">
       {imagesPlaceholder.map((image, index) => {
         return <ImageItem key={index} image={image} />;
       })}

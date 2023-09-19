@@ -14,7 +14,7 @@ function SearchHeader({ search }) {
   return (
     <div className="searchDiv container">
       <form onSubmit={handleFormSubmit}>
-        <label className="form-label text-center">
+        <label className="form-label baslik text-center">
           What are you looking for?
         </label>
         <input

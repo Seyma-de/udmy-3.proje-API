@@ -16,3 +16,16 @@
   display: flex;
   flex-direction: column;
 }
+.kapsayici {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cart {
+  border-radius: 10px;
+  margin: 10px;
+}
+.baslik {
+  font-size: 30px;
+  font-family: fantasy;
+  font-weight: 8px;
+}
